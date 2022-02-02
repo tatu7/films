@@ -1,0 +1,91 @@
+/* Muallif: Joraqozi Turdaliyev  */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f1f2f3;
+}
+.filmList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+}
+.film {
+  max-width: 200px;
+  max-height: 400px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-sizing: border-box;
+}
+.filmList img {
+  width: 120px;
+  height: 150px;
+}
+.filmInput {
+  display: block;
+  padding: 5px 10px;
+  width: 400px;
+  margin: 10px auto;
+  outline: none;
+  border: 1px solid #555;
+}
+.heading {
+  text-align: center;
+  color: rgb(8, 205, 219);
+  margin: 10px 0;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.prevBtn {
+  border-radius: 3px;
+  border: 1px solid green;
+  padding: 8px 25px;
+  color: aliceblue;
+  background-color: green;
+  transition: 0.5s ease;
+  margin-left: 570px;
+}
+.prevBtn:hover {
+  color: green;
+  background-color: aliceblue;
+}
+.nextBtn {
+  border-radius: 3px;
+  border: 1px solid green;
+  padding: 8px 25px;
+  color: aliceblue;
+  background-color: green;
+  transition: 0.5s ease;
+  margin-left: 20px;
+}
+.nextBtn:hover {
+  color: green;
+  background-color: aliceblue;
+}
+.please {
+  text-align: center;
+}
+.slider {
+  margin-bottom: 200px;
+}
+.filmTitle {
+  font-size: 15px;
+  margin: 10px 0;
+  color: #032121;
+}
+.filmImg {
+  display: block;
+  margin: 0 auto;
+}
+.filmId,
+.filmYear,
+.filmType {
+  font-size: 15px;
+  color: dimgray;
+}
